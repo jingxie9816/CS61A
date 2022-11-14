@@ -460,7 +460,7 @@ def winner(strategy0, strategy1):
         return 1
 
 
-def average_win_rate(strategy, baseline=always_roll(6)):
+def average_win_rate(strategy, baseline=always_roll(4)):
     """Return the average win rate of STRATEGY against BASELINE. Averages the
     winrate when starting the game as player 0 and as player 1.
     """
@@ -482,10 +482,10 @@ def run_experiments():
     if False:  # Change to True to test bacon_strategy
         print('bacon_strategy win rate:', average_win_rate(bacon_strategy))
 
-    if True:  # Change to True to test extra_turn_strategy
+    if False:  # Change to True to test extra_turn_strategy
         print('extra_turn_strategy win rate:', average_win_rate(extra_turn_strategy))
 
-    if False:  # Change to True to test final_strategy
+    if True:  # Change to True to test final_strategy
         print('final_strategy win rate:', average_win_rate(final_strategy))
 
     "*** You may add additional experiments as you wish ***"
@@ -525,15 +525,12 @@ def final_strategy(score, opponent_score):
     """Write a brief description of your final strategy.
 
     *** YOUR DESCRIPTION HERE ***
-
-
-
     """
     # BEGIN PROBLEM 12
+    result = extra_turn_strategy(score, opponent_score, cutoff=7, num_rolls=6)
+    return result
     
-    
-    
-    return 6  # Replace this statement
+    #return 6  # Replace this statement
 
 
 
