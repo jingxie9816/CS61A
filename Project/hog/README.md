@@ -1,4 +1,4 @@
-Hi,\
+Hi there,\
 In this project, I developed a simulator and multiple strategies for the dice game "Hog". Curious what is the "Hog" game? here is the rules:
   
 In Hog, two players alternate turns trying to be the first to end a turn with at least 100 total points.
