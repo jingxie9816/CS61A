@@ -1,4 +1,4 @@
-Hi👋
+Hi there 👋
 
 In this project, I developed a tower defense game called Ants Vs. SomeBees, which is inspired by PopCap Games' Plants Vs. Zombies! 🌻 Vs. 🧟
 
