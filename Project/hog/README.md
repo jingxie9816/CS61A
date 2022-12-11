@@ -15,5 +15,5 @@ In a normal game of Hog, those are all the rules. To spice up the game, we'll in
 >**Pig Pass**: After points for the turn are added to the current player's score, if the current player's score is lower than the opponent's score and the difference between them is less than 3, the current player takes another turn.
 
 
-To play this game, download all the files in this folder. In your terminal, run `python3 hog_gui.py`, then a interactive website will pop up. \
+The main codes of the game logic is implemented in `hog.py`. To play this game, download all the files in this folder. In your terminal, run `python3 hog_gui.py`, then a interactive website will pop up. \
 Have fun! :clap:
