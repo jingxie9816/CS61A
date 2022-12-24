@@ -57,19 +57,6 @@
               )
     )
     ; END PROBLEM 17
-define nondecreaselist(s):
-    define helper(n, innerlist, outerlist):
-        if s is None:
-            return s 
-        if s[n] > s[n+1]:
-            innerlist.append(s[n])
-            outerlist.append(innerlist)
-            helper(n+1, (), outerlist)
-        else:
-            innerlist.append(s[0], s[1])
-            helper(n+1, innerlist, outerlist)
-    helper(0, (), ())
-                
 
 
 ;; Problem EC
